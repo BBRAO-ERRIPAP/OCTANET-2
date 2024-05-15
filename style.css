@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #32303f;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 250px auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    color: #ffffff;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4000px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 4%;
+    font-size: 16px;
+    background-color: #a0459e;
+    color: white;
+    border: none;
+    border-radius: 4000px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4d65bc;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #dcd5d5;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #da190b;
+  }
+  
